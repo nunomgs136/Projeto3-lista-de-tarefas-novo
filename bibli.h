@@ -1,4 +1,6 @@
-
+//
+// Created by unifnsilva on 12/09/2023.
+//
 #include <stdio.h>
 #ifndef UNTITLED2_BIBLIOTECA_H
 #define UNTITLED2_BIBLIOTECA_H
@@ -6,6 +8,7 @@ typedef struct{
     int prioridade;
     char categoria[100];
     char descricao[300];
+    char estado[12];
 
 }Tarefa;
 //limitar tarefas até 100
@@ -22,4 +25,6 @@ int listaTarefas(ListadeTarefas lt);
 void printMenu();
 int salvarLista(ListadeTarefas lt, char nome[]);
 int carregarLista(ListadeTarefas *lt,char nome[]);
+int alterarTarefa(ListadeTarefas *lt);
+void alteracao_tarefa(ListadeTarefas *lt, int pos);
 #endif //UNTITLED2_BIBLIOTECA_H
