@@ -27,4 +27,8 @@ int salvarLista(ListadeTarefas lt, char nome[]);
 int carregarLista(ListadeTarefas *lt,char nome[]);
 int alterarTarefa(ListadeTarefas *lt);
 void alteracao_tarefa(ListadeTarefas *lt, int pos);
+int filtrar_prioridade(ListadeTarefas *lt);
+int filtrar_estado(ListadeTarefas *lt);
+int filtrar_categoria(ListadeTarefas *lt);
+int filtrar_categoria_prioridade(ListadeTarefas *lt);
 #endif //UNTITLED2_BIBLIOTECA_H
