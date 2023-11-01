@@ -44,6 +44,10 @@ int main() {
           filtrar_categoria(&lt);
         }else if(opcao == 8){
           filtrar_categoria_prioridade(&lt);
+        }else if(opcao == 9){
+          exportar_prioridade(&lt);
+        }else if(opcao == 10){
+          exportar_categoria(&lt);
         }
           
         
