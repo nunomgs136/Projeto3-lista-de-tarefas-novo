@@ -37,8 +37,15 @@ int main() {
         }else if(opcao == 4){
           alterarTarefa(&lt);
         }else if(opcao == 5){
-          printf("Filtrar tarefas");
+          filtrar_prioridade(&lt);
+        }else if(opcao == 6){
+          filtrar_estado(&lt);
+        }else if(opcao == 7){
+          filtrar_categoria(&lt);
+        }else if(opcao == 8){
+          filtrar_categoria_prioridade(&lt);
         }
+          
         
         
         
