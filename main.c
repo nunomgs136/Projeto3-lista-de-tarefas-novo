@@ -47,17 +47,10 @@ int main() {
         }else if(opcao == 9){
           exportar_prioridade(&lt);
         }else if(opcao == 10){
-          exportar_categoria(&lt);
-        }
-          
-        
-        
-        
-        
-        
-        
-        
-        else{
+          exportar_categoria(lt);
+        }else if(opcao == 11){
+          exportar_categoria_prioridade(lt);
+        }else{
             printf("Opcao nao existe\n");
         }
     }while(opcao != 0);
