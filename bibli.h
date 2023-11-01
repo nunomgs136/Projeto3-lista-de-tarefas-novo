@@ -31,4 +31,7 @@ int filtrar_prioridade(ListadeTarefas *lt);
 int filtrar_estado(ListadeTarefas *lt);
 int filtrar_categoria(ListadeTarefas *lt);
 int filtrar_categoria_prioridade(ListadeTarefas *lt);
+int exportar_prioridade(ListadeTarefas *lt);
+int exportar_categoria(ListadeTarefas lt);
+void exportar_categoria_prioridade(ListadeTarefas lt);
 #endif //UNTITLED2_BIBLIOTECA_H
